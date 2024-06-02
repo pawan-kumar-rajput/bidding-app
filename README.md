@@ -6,11 +6,16 @@
 2. Run `npm install` to install dependencies.
 3. Create a `.env` file with the following variables:
 
-DATABASE_HOST=localhost
-DATABASE_USER=root
-DATABASE_PASSWORD=password
-DATABASE_NAME=bidding_platform
-JWT_SECRET=your_jwt_secret
+PORT=3000
+JWT_SECRET=secret
+ITEM_IMAGE_LOCATION=./uploads
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=root
+DB_NAME=bidding
+DB_PORT=3306
+DIALECT=mysql
 
 4.Create database 'bidding'
 5.Run migrations to create tables
